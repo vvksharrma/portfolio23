@@ -13,7 +13,7 @@ const about = {
     linkedin: 'https://www.linkedin.com/in/vvksharrma/',
     github: 'https://github.com/vvksharrma',
   },
-  description: `I am 2021 𝐁.𝐓𝐞𝐜𝐡 Grad and Currently working as 𝐑𝐞𝐚𝐜𝐭 Developer in Wipro. `,
+  description: `I am 𝐁.𝐓𝐞𝐜𝐡 Grad, Currently working as 𝐑𝐞𝐚𝐜𝐭 Developer in Wipro. `,
 }
 
 const projects = [
@@ -27,6 +27,14 @@ const projects = [
     screenshot: '../public/Images/netflixclone.png',
     sourceCode: 'https://github.com/vvksharrma/Netflix-clone',
     livePreview: 'https://netflixop.netlify.app/',
+  },
+  {
+    name: 'Cryptic Base',
+    description:
+      'Cryptocurrency Tracker and information, trending coins with login and saving your favrouite coins',
+    stack: ['React', 'Tailwind', 'Firebase', 'Context-Api'],
+    sourceCode: 'https://cryptotoday-6b0fb.web.app/',
+    livePreview: 'https://cryptotoday-6b0fb.web.app/',
   },
   {
     name: 'Corona Virus Tracker',
@@ -67,6 +75,7 @@ const projects = [
     sourceCode: 'https://github.com/vvksharrma/PlacementCell',
     livePreview: 'https://github.com/vvksharrma/PlacementCell',
   },
+  
 ]
 
 const skills = [
@@ -77,13 +86,14 @@ const skills = [
   'JavaScript',
   'React',
   'Redux',
+  'Unit Testing',
+  'Jest',
+  'firebase',
   'SASS',
-  'Material UI',
-  'UI/UX',
   'Git',
   'Github',
+  'UI/UX',
   'CI/CD',
-  'Jest',
 ]
 
 const contact = {
