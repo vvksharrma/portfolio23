@@ -8,12 +8,16 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Vivek Sharma',
   role: 'Front End Engineer',
-  resume: 'resume.pdf',
+  resume: 'Vivek_Sharma_Resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/vvksharrma/',
     github: 'https://github.com/vvksharrma',
   },
-  description: `I am 𝐁.𝐓𝐞𝐜𝐡 Grad, Currently working as 𝐑𝐞𝐚𝐜𝐭 Developer in Wipro. `,
+  description: `Experienced front-end developer with a proven track record in designing and developing web 
+  applications using a variety of frameworks. Highly skilled in collaborating with
+  cross-functional teams, ensuring the successful delivery of top-notch projects. Committed to
+  continuous professional advancement, and being up-to-date with industry trends and
+  emerging technologies, constantly enhancing my skill set to stay ahead `,
 }
 
 const projects = [
@@ -24,7 +28,7 @@ const projects = [
     description:
       'Netflix clone made with React and with firebase authentication, user login feature and multiple pages',
     stack: ['React', 'styled-component', 'redux-toolkit', 'Firebase'],
-    screenshot: '../public/Images/netflixclone.png',
+    screenshot: '../Images/netflixclone.png',
     sourceCode: 'https://github.com/vvksharrma/Netflix-clone',
     livePreview: 'https://netflixop.netlify.app/',
   },
@@ -36,6 +40,14 @@ const projects = [
     sourceCode: 'https://cryptotoday-6b0fb.web.app/',
     livePreview: 'https://cryptotoday-6b0fb.web.app/',
   },
+  {
+    name: 'We Code-Blog App',
+    description:
+      'Full stack blog application with Auth create, Read, Edit, Post blogs with Rich Text Editor',
+    stack: ['React', 'MongoDB', 'ExpressJS', 'Context-Api','vercel','MERN'],
+    sourceCode: 'https://github.com/vvksharrma/wecode',
+    livePreview: 'https://wecodeblog.vercel.app/',
+  }
   {
     name: 'Corona Virus Tracker',
     description:
@@ -75,7 +87,15 @@ const projects = [
     sourceCode: 'https://github.com/vvksharrma/PlacementCell',
     livePreview: 'https://github.com/vvksharrma/PlacementCell',
   },
-  
+  {
+    name: 'Youtube Clone',
+    description:
+      'Youtube clone made with React and with firebase authentication, user login feature and multiple pages',
+    stack: ['React', 'SASS', 'Redux', 'Firebase'],
+    screenshot: '../public/Images/netflixclone.png',
+    sourceCode: 'https://github.com/vvksharrma/youThoob',
+    livePreview: 'https://github.com/vvksharrma/youThoob',
+  }
 ]
 
 const skills = [
@@ -86,6 +106,9 @@ const skills = [
   'JavaScript',
   'React',
   'Redux',
+  'Typescript',
+  'Next JS',
+  'React Native',
   'Unit Testing',
   'Jest',
   'firebase',
@@ -94,6 +117,8 @@ const skills = [
   'Github',
   'UI/UX',
   'CI/CD',
+  'Jenkins',
+  'Cloud',
 ]
 
 const contact = {
