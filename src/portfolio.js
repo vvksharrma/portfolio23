@@ -3,7 +3,7 @@ const header = {
   homepage: '/portfolio23/',
   title: 'नमस्ते :)',
 }
-//use npm run deploy command for gh pages
+// use npm run deploy command for gh pages
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Vivek Sharma',
