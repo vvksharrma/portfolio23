@@ -13,24 +13,27 @@ const about = {
     linkedin: 'https://www.linkedin.com/in/vvksharrma/',
     github: 'https://github.com/vvksharrma',
   },
-  description: `Experienced front-end developer with a proven track record in designing and developing web 
-  applications using a variety of frameworks. Highly skilled in collaborating with
-  cross-functional teams, ensuring the successful delivery of top-notch projects. Committed to
-  continuous professional advancement, and being up-to-date with industry trends and
-  emerging technologies, constantly enhancing my skill set to stay ahead `,
+  description: `Experienced front-end developer with a proven track record in designing and developing web applications using a variety of frameworks. Highly skilled in collaborating with cross-functional teams, ensuring the successful delivery of top-notch projects. Committed to continuous professional advancement, and being up-to-date with industry trends and emerging technologies, constantly enhancing my skill set to stay ahead `,
 }
 
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Netflix Clone',
+    name: 'E-Voting system',
     description:
-      'Netflix clone made with React and with firebase authentication, user login feature and multiple pages',
-    stack: ['React', 'styled-component', 'redux-toolkit', 'Firebase'],
-    screenshot: '../Images/netflixclone.png',
-    sourceCode: 'https://github.com/vvksharrma/Netflix-clone',
-    livePreview: 'https://netflixop.netlify.app/',
+      'Final year Academic project Online E-voting system using blockchain Technology smart contract Ethererium, Web 3, Metamsak, solidity',
+    stack: ['react', 'Web3', 'Blockchain'],
+    sourceCode: 'https://github.com/vvksharrma',
+    livePreview: 'https://github.com/vvksharrma',
+  },
+  {
+    name: 'We Code-Blog App',
+    description:
+      'MERN Full stack blog application with Auth create, Read, Edit, Post blogs with Rich Text Editor',
+    stack: ['React', 'MongoDB', 'ExpressJS', 'Context-Api','vercel','MERN'],
+    sourceCode: 'https://github.com/vvksharrma/wecode',
+    livePreview: 'https://wecodeblog.vercel.app/',
   },
   {
     name: 'Cryptic Base',
@@ -41,13 +44,14 @@ const projects = [
     livePreview: 'https://cryptotoday-6b0fb.web.app/',
   },
   {
-    name: 'We Code-Blog App',
+    name: 'Netflix Clone',
     description:
-      'Full stack blog application with Auth create, Read, Edit, Post blogs with Rich Text Editor',
-    stack: ['React', 'MongoDB', 'ExpressJS', 'Context-Api','vercel','MERN'],
-    sourceCode: 'https://github.com/vvksharrma/wecode',
-    livePreview: 'https://wecodeblog.vercel.app/',
-  }
+      'Netflix clone made with React and with firebase authentication, user login feature and multiple pages',
+    stack: ['React', 'styled-component', 'redux-toolkit', 'Firebase'],
+    screenshot: '../Images/netflixclone.png',
+    sourceCode: 'https://github.com/vvksharrma/Netflix-clone',
+    livePreview: 'https://netflixop.netlify.app/',
+  },
   {
     name: 'Corona Virus Tracker',
     description:
@@ -55,6 +59,15 @@ const projects = [
     stack: ['React', 'Basic', 'API', 'Router', 'GraphChart'],
     sourceCode: 'https://github.com/vvksharrma/covid-19',
     livePreview: 'https://covid-statis.netlify.app/',
+  },
+  {
+    name: 'Youtube Clone',
+    description:
+      'Youtube clone made with React and with firebase authentication, user login feature and multiple pages',
+    stack: ['React', 'SASS', 'Redux', 'Firebase'],
+    screenshot: '../public/Images/netflixclone.png',
+    sourceCode: 'https://github.com/vvksharrma/youThoob',
+    livePreview: 'https://youthoob-omega.vercel.app/',
   },
   {
     name: 'QR Code generator',
@@ -72,14 +85,6 @@ const projects = [
     livePreview: 'https://vvksharrma.github.io/NeoCalc/',
   },
   {
-    name: 'E-Voting system',
-    description:
-      'Final year Academic project Online E-voting system using blockchain Technology smart contract Ethererium, Web 3, Metamsak, solidity',
-    stack: ['react', 'Web3', 'Blockchain'],
-    sourceCode: 'https://github.com/vvksharrma',
-    livePreview: 'https://github.com/vvksharrma',
-  },
-  {
     name: 'Placement Cell Web Portal',
     description:
       'The system is an online application for the Training and Placement Dept. of the college that can be accessed throughout the organization',
@@ -87,15 +92,6 @@ const projects = [
     sourceCode: 'https://github.com/vvksharrma/PlacementCell',
     livePreview: 'https://github.com/vvksharrma/PlacementCell',
   },
-  {
-    name: 'Youtube Clone',
-    description:
-      'Youtube clone made with React and with firebase authentication, user login feature and multiple pages',
-    stack: ['React', 'SASS', 'Redux', 'Firebase'],
-    screenshot: '../public/Images/netflixclone.png',
-    sourceCode: 'https://github.com/vvksharrma/youThoob',
-    livePreview: 'https://github.com/vvksharrma/youThoob',
-  }
 ]
 
 const skills = [

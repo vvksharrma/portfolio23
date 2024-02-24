@@ -21,7 +21,7 @@ const About = () => {
         {resume && (
           <a href={resume} download="resume.pdf">
             <span type='button' className='btn btn--outline'>
-              Resume
+            ⬇ Resume 
             </span>
           </a>
         )}
