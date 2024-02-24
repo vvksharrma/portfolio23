@@ -102,12 +102,23 @@ const skills = [
   'JavaScript',
   'React',
   'Redux',
+  'Redux-Toolkit',
+  'Context Api',
   'Typescript',
   'Next JS',
   'React Native',
   'Unit Testing',
   'Jest',
   'firebase',
+  'NodeJS',
+  'Express',
+  'MySQL',
+  'MongoDB',
+  'GraphQL',
+  'Bootstrap',
+  'MUI',
+  'Chakra UI',
+  'Tailwind',
   'SASS',
   'Git',
   'Github',
@@ -115,6 +126,9 @@ const skills = [
   'CI/CD',
   'Jenkins',
   'Cloud',
+  'Wenpack',
+  'DOM',
+  'MFE'
 ]
 
 const contact = {
