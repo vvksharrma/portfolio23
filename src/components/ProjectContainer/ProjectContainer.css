@@ -10,7 +10,14 @@
 .project:hover {
   transform: translateY(-7px);
 }
-
+.project__img{
+  height: auto;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .project__img:hover{
+    opacity:  0.5;
+  }
 .project__description {
   background: none;
   margin-top: 1em;

@@ -5,10 +5,12 @@ import './ProjectContainer.css'
 // import netflixclone from "../../Images/netflixclone.png"
 
 const ProjectContainer = ({ project }) => (
-  // <div className='project' style={{backgroundImage: `url(${netflixclone})`,backgroundRepeat: "no-repeat",objectFit:'cover' }}>
   <div className='project'>
     <h3>{project.name}</h3>
-
+    <a href={project.livePreview}>
+      <img className='project__img' src={project.screenshot} alt='screenshot' />
+    </a>
+    {console.log(project)}
     <p className='project__description'>{project.description}</p>
     {project.stack && (
       <ul className='project__stack'>
