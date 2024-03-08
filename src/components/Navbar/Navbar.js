@@ -19,6 +19,15 @@ const Navbar = () => {
         style={{ display: showNavList ? 'flex' : null }}
         className='nav__list'
       >
+        <li className='nav__list-item'>
+            <a
+              href='https://wecodeblog.vercel.app/'
+              className='link link--nav'
+            >
+              Blog
+            </a>
+          </li>
+          
         {projects.length ? (
           <li className='nav__list-item'>
             <a
