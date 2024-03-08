@@ -20,14 +20,16 @@ const Navbar = () => {
         className='nav__list'
       >
         <li className='nav__list-item'>
-            <a
-              href='https://wecodeblog.vercel.app/'
-              className='link link--nav'
-            >
-              Blog
-            </a>
-          </li>
-          
+          <a
+            href='https://wecodeblog.vercel.app/'
+            rel='noreferrer'
+            target='_blank'
+            className='link link--nav'
+          >
+            Blog
+          </a>
+        </li>
+
         {projects.length ? (
           <li className='nav__list-item'>
             <a
